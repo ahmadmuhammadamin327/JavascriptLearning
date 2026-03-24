@@ -517,3 +517,31 @@ if(marks > 89) {
     console.log("You Fail")
 }
 }
+// Number to number
+{
+let a = "5";
+let b = 10;
+
+let result = Number(a) + b;
+
+console.log(result);
+}
+// ParseInt Method
+{
+let a = "20";
+let b = 5;
+
+let result = parseInt(a) + b;
+
+console.log(result);
+}
+// (Unary Plus) Method
+{
+let a = "8";
+let b = 2;
+
+let result = +a + b;
+
+console.log(result);
+}
+// This is a Commit
