@@ -1,7 +1,15 @@
-let arr = [1, 2, 3, 4];
-
-let sum = arr.reduce(function(acc, val) {
-    return acc + val;
-}, 0);
-
-console.log(sum);
+{
+console.log(window);
+}
+{
+console.log(window.document);
+}
+{
+console.dir(window.body);
+}
+{
+let heading = document.getElementById();
+}
+let h2 = document.querySelector("h2");
+console.dir(h2.innerText);
+h2.innerText = h2.innerText + "Apna College";
